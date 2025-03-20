@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="Avengers.jpeg" rel="icon" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="Avengers Quiz">
+  <meta property="og:description" content="Test your knowledge of Avengers and their heroic feats!">
+  <title>Avengers Quiz</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no">
+  <style>
+    body {
+      font-family: 'Times New Roman', Times, serif, sans-serif;
+      background-color: #f4f4f4;
+    }
+    section {
+      margin: 50px 0;
+    }
+  </style>
+</head>
+<body>
+  <form action="https://docs.google.com/forms/d/e/1FAIpQLSfIephPMZ347J-ODAtFLKdP91rGH-_Y75Kr025oZ6Ps4KwmkA/formResponse"></form>
+  <audio id="background-audio" loop autoplay>
+  <source src="marvel.mp3" type="audio/mpeg">
+  </audio>
+  
+  
+  <!-- Assembly Audio (Initially Paused) -->
+  <audio id="assemble-audio" loop>
+    <source src="assemble.mp3" type="audio/mpeg">
+  </audio>
+
+  <header class="text-center bg-dark text-white py-3">
+    <h1><a href="https://099aditya.github.io/Avengers/" style="text-decoration: none; color: white; cursor: hand;">Avengers Quiz</a></h1>
+    <p>Learn about Earth's mightiest heroes and test your knowledge!</p>
+    <br>
+    <br>
+    <nav class="d-flex justify-content-around">
+      <a href="#ironman" class="text-white" style="text-decoration: none">IRON MAN</a>
+      <a href="#ca" class="text-white" style="text-decoration: none;">CAPTAIN AMERICA</a>
+      <a href="#hulk" class="text-white" style="text-decoration: none;">HULK</a>
+      <a href="#thor" class="text-white" style="text-decoration: none;">THOR</a>
+    </nav>
+  </header>
+
+  <section id="ironman" class="mt-5">
+    <main class="container my-5">
+      <section class="text-center bg-dark text-white py-3" style="max-width: 100%; margin: auto;">
+        <h1>IRON MAN</h1>
+      </section>
+      <br>
+      <section id="ironman" class="hero-section" style="display: flex; align-items: center;">
+<img src="https://i.pinimg.com/736x/43/6d/dd/436ddd0eebc6bf2edb046cf0a4b9126a.jpg"width="400" alt="Iron Man" class="img-fluid rounded mb-3" usemap="#image-map">
+
+<map name="image-map">
+    <area target="_self" alt="Iron Man" title="Iron Man" href="https://en.wikipedia.org/wiki/Iron_Man" coords="458,309,310,61,424,32,493,28,526,153,505,243,432,345,401,385,299,374,311,226,298,179,290,88,307,77,327,50,327,62,342,58" shape="poly">
+    <area target="_self" alt="Infinity Stone" title="Infinity Stone" href="https://en.wikipedia.org/wiki/Infinity_Stones" coords="177,55,89,101,58,178,64,221,62,267,107,328,196,335,253,320,266,248,270,183,254,72,219,57" shape="poly">
+    <area target="_self" alt="Arc reactor" title="Arc reactor" href="https://en.wikipedia.org/wiki/Arc_reactor" coords="388,422,368,447,366,490,377,504,392,533,408,560,437,566,475,574,489,566,518,536,530,492,534,452,503,425,446,421" shape="poly">
+</map>
+        <div style="margin-left: 20px;">
+          <p>Iron Man, portrayed by Robert Downey Jr., is a central figure in the Marvel Cinematic Universe (MCU), debuting in Iron Man (2008). Tony Stark is a genius inventor and CEO of Stark Industries, initially portrayed as a wealthy, arrogant playboy indifferent to the consequences of his weapons manufacturing. His life changes drastically when he is kidnapped by terrorists and severely injured by shrapnel near his heart. Forced to create a weapon for his captors, Stark instead builds a high-tech suit of armor to escape, marking the birth of Iron Man. The suit, equipped with advanced weaponry, flight capabilities, and an AI system, becomes his tool for survival, defense, and redemption.
+            Stark’s transformation from self-interest to heroism is central to his arc. Initially driven by personal gain, he confronts the consequences of his past and accepts responsibility for his actions. His evolution continues in Iron Man 2 (2010), where he battles personal demons and faces a health crisis due to palladium poisoning. This leads to the creation of the arc reactor, a critical invention. In The Avengers (2012), Stark joins the team to stop an alien invasion, becoming a key member of the Avengers and building relationships with fellow heroes.
+            In Avengers: Age of Ultron (2015) and Captain America: Civil War (2016), Stark faces the unintended consequences of his actions, such as the creation of Ultron, an AI that causes global chaos. His support for the Sokovia Accords, regulating superhero activity, puts him at odds with Captain America, leading to a rift within the Avengers. Stark's internal struggles with guilt, responsibility, and the impact of his technology continue to shape his journey.
+            In Avengers: Infinity War (2018) and Avengers: Endgame (2019), Stark's growth culminates in his selfless decision to sacrifice himself for the greater good. In Endgame, he uses the Infinity Stones to undo the destruction caused by Thanos, knowing it will cost him his life. This final act of heroism solidifies his legacy as a selfless savior and one of the most iconic characters in modern cinema. Stark’s evolution from a selfish businessman to a hero who sacrifices everything for the universe is a defining aspect of the MCU</p>
+        </div>
+      </section>
+    </main>
+  </section>
+
+  <form>
+    <fieldset>
+      <section class="text-center text-white py-3" style="background-color: black; max-width: 70%; margin: auto;">
+        <h1>IRON MAN QUIZ</h1>
+      </section>    
+      <br>
+      <section class="hero-section" style="display: flex; align-items: center;">
+        <div style="max-width: 70%; margin: auto;">
+          <div class="mb-3">
+            <label>1. Who is Iron Man's AI assistant?</label>
+            <select name="entry.1747855576" class="form-select">
+              <option value="" disabled selected>Select your answer</option>              
+              <option value="A">JARVIS</option>
+              <option value="B">FRIDAY</option>
+              <option value="C">EDITH</option>
+              <option value="D">All of the above</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label>2. What is the name of the technology that powers Iron Man's suit?
+            </label>
+            <br>
+            <input type="radio" name="entry.2036432018" value="b" class="form-check-input" id="q2-a">
+            <label for="q2-a">A.Quantum Reactor</label>
+            <input type="radio" name="entry.2036432018" value="b" class="form-check-input" id="q2-b">
+            <label for="q2-b"> B.Arc Reactor</label>
+            <input type="radio" name="entry.2036432018" value="b" class="form-check-input" id="q2-c">
+            <label for="q2-c">C.Power Core</label>
+            <input type="radio" name="entry.2036432018" value="B" class="form-check-input" id="q2-d">
+            <label for="q2-d">D.Stark Engine
+            </label>
+          </div>
+          <div class="mb-3">
+            <label>3. What caused Tony Stark to build the Iron Man suit?</label>
+            <select name="entry.514892831" class="form-select">
+              <option value="" disabled selected>Select your answer</option> 
+              <option value="A"> His injury from shrapnel</option>
+              <option value="B">A challenge from Captain America</option>
+              <option value="C">His father's death</option>
+              <option value="D">A fight with Ultron</option>
+            </select>
+          </div>
+        </div>
+      </section>
+    </fieldset>
+  </form>
+
+
+
+  <!--Captain America-->
+  <section id="ca" class="mt-5">
+    <main class="container my-5">
+      <section class="text-center bg-dark text-white py-3" style="max-width: 100%; margin: auto;">
+        <h1>CAPTAIN AMERICA</h1>
+      </section>
+      <br>
+      <section id="ironman" class="hero-section" style="display: flex; align-items: center;">
+        <img src="https://i.pinimg.com/474x/37/a5/d1/37a5d1b21e560fc33f9d5655972d4b62.jpg" width="400" alt="Iron Man" class="img-fluid rounded mb-3">
+        <div style="margin-left: 20px;">
+          <p>Captain America, aka Steve Rogers, first appeared in *Captain America Comics in March 1941, created by Joe Simon and Jack Kirby. He was a super-soldier created during World War II to fight Nazis and became a symbol of American heroism and justice. Initially frail and weak, Steve was injected with the Super Soldier Serum, transforming him into the peak of human physical condition, enhancing his strength, agility, and endurance. His iconic vibranium shield, virtually indestructible, could be thrown with precision and would return to him after hitting surfaces. During WWII, Captain America was joined by his sidekick, Bucky Barnes, who was thought to have been killed but later revealed to have survived and become the brainwashed Winter Soldier. Steve also led a team called the Howling Commandos, a group of soldiers who fought alongside him in covert operations. His archenemy is the Red Skull, the Nazi officer and leader of Hydra, though he has battled many other villains, including Baron Zemo, Arnim Zola, and Crossbones. After being frozen in ice for decades, Captain America was thawed out and became a founding member of the Avengers, helping to fight threats like Loki and Ultron. He played a key role in *Captain America: The First Avenger*, where he battled the Red Skull for the Tesseract, which contained the Space Stone—later crucial in forming the Avengers. Known for his leadership skills, Captain America guided the Avengers with courage, serving as their moral compass. One of his most significant relationships was with Peggy Carter, whom he was separated from after being frozen. His best friend, Bucky, became the Winter Soldier but was later freed by Steve, who helped him regain his redemption. In the *Civil War* storyline, Captain America and Iron Man clashed over the Sokovia Accords, leading to the Avengers splitting into two factions. After his retirement, Steve passed his shield to Sam Wilson (The Falcon), marking a new era for Captain America, which was explored in the Disney+ show *The Falcon and the Winter Soldier*. Captain America’s motto, "I can do this all day," reflects his relentless determination. In *Avengers: Endgame*, Captain America played a crucial role in time travel to gather the Infinity Stones and ultimately decided to live a full life with Peggy, passing on his shield to Sam Wilson.
+          </p>
+        </div>
+      </section>
+    </main>
+  </section>
+
+  <form>
+    <fieldset>
+      <section class="text-center text-white py-3" style="background-color: black; max-width: 70%; margin: auto;">
+        <h1>CAPTAIN AMERICA QUIZ</h1>
+      </section>    
+      <br>
+      <section class="hero-section" style="display: flex; align-items: center;">
+        <div style="max-width: 70%; margin: auto;">
+          <div class="mb-3">
+            <label>1. Who is Captain America's greatest enemy and the leader of Hydra?</label>
+            <select name="entry.1717536528" class="form-select">
+              <option value="" disabled selected>Select your answer</option> 
+              <option value="A">Baron Zemo</option>
+              <option value="B">Crossbones</option>
+              <option value="C">Red Skull</option>
+              <option value="D">Loki</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label>2. What was the name of the serum that transformed Steve Rogers into Captain America?
+            </label>
+            <br>
+            <input type="radio" name="entry.1717536528" value="B" class="form-check-input" id="q3-a">
+            <label for="q3-a">Super Soldier Serum</label>
+            <input type="radio" name="entry.1717536528" value="B" class="form-check-input" id="q3-b">
+            <label for="q3-b">Infinity Serum
+            <input type="radio" name="entry.1717536528" value="B" class="form-check-input" id="q3-c">
+            <label for="q3-c">Power Serum
+            <input type="radio" name="entry.1717536528" value="B" class="form-check-input" id="q3-d">
+            <label for="q3-d">Strength Serum
+            </label>
+          </div>
+          <div class="mb-3">
+            <label>3. Which Infinity Stone did Captain America battle for in the first?
+            </label>
+            <br>
+            <input type="radio" name="entry.1472446543" value="B" class="form-check-input" id="q4-a">
+            <label for="q4-a">Power Stone</label>
+            <input type="radio" name="entry.1472446543" value="B" class="form-check-input" id="q4-b">
+            <label for="q4-b">Reality Stone
+            <input type="radio" name="entry.1472446543" value="B" class="form-check-input" id="q4-c">
+            <label for="q4-c">Space Stone
+            <input type="radio" name="entry.1472446543" value="B" class="form-check-input" id="q4-d">
+            <label for="q4-d">Mind Stone
+            </label>
+          </div>
+        </div>
+      </section>
+    </fieldset>
+  </form>
+
+
+<!--Hulk-->
+  <section id="hulk" class="mt-5">
+    <main class="container my-5">
+      <section class="text-center bg-dark text-white py-3" style="max-width: 100%; margin: auto;">
+        <h1>HULK </h1>
+      </section>
+      <br>
+      <section id="ironman" class="hero-section" style="display: flex; align-items: center;">
+        <img src="https://i.pinimg.com/474x/c6/01/50/c60150abb83278dfdc7e73abaf973850.jpg" width="400" alt="Iron Man" class="img-fluid rounded mb-3">
+        <div style="margin-left: 20px;">
+          <p>Bruce Banner, also known as the Hulk, first appeared in The Incredible Hulk in May 1962, created by writer Stan Lee and artist Jack Kirby. Bruce Banner is a brilliant scientist who, after being exposed to a gamma bomb during an experiment gone wrong, transforms into the Hulk whenever he experiences intense anger or stress. The transformation gives him immense physical strength, making him one of the most powerful beings in the Marvel Universe. However, the Hulk’s uncontrolled rage often leads to destruction, making him a figure of fear and isolation. Over time, Banner has struggled with his dual identity, often seeking ways to cure himself of the Hulk, yet he continues to embrace his monstrous form when necessary to protect others. The Hulk’s origin is rooted in his tragic accident during the gamma bomb test, where Banner tried to save a teenager, Rick Jones, who had wandered into the testing zone. The incident not only created the Hulk but also left Banner with a constant inner conflict, as his personality shifts between the mild-mannered Banner and the destructive, yet heroic Hulk. Over the years, the Hulk has fought a variety of villains, including General Ross, who is obsessed with capturing and controlling him, as well as the abomination, a creature created by a similar gamma radiation accident. The Hulk’s immense power is often showcased when he faces formidable opponents, yet it is his internal struggle with his identity and anger that defines his character. Despite the danger he represents, the Hulk has also been a member of several superhero teams, including the Avengers. His time with the team began in *The Avengers (1963), where he initially left the group due to his difficulty controlling his temper. However, he later returned to help fight against threats like Loki, Ultron, and Thanos. Hulk’s relationship with his fellow Avengers is often strained due to his uncontrollable nature, especially his conflicts with characters like Tony Stark (Iron Man) and Black Widow, with whom he shares a complicated relationship. One of the most iconic moments for the Hulk comes in Avengers: Infinity War (2018), where he is initially unable to transform into the Hulk after his defeat by Thanos. This leads to Bruce Banner's struggle to reconcile his need for the Hulk's power with the necessity of remaining human to connect with others. In *Avengers: Endgame (2019), Bruce Banner successfully merges his two identities into "Smart Hulk" combining his intellect with the Hulk's strength. This version of the Hulk is able to fight alongside the Avengers in the final battle against Thanos, ultimately helping to undo the devastation caused by the Mad Titan. Bruce’s relationship with his alter ego continues to evolve, but his role as one of the most complex and emotionally troubled characters in the MCU is undeniable. The Hulk’s iconic line, "Hulk smash," perfectly captures his immense power and the fury that drives him. However, at his core, the Hulk is a tragic character—a man struggling to reconcile his need for peace with the uncontrollable anger that defines him.</p>
+        </div>
+      </section>
+    </main>
+  </section>
+
+  <form>
+    <fieldset>
+      <section class="text-center text-white py-3" style="background-color: black; max-width: 70%; margin: auto;">
+        <h1>HULK QUIZ</h1>
+      </section>    
+      <br>
+      <section class="hero-section" style="display: flex; align-items: center;">
+        <div style="max-width: 70%; margin: auto;">
+          <div class="mb-3">
+            <label>1. What event caused Bruce Banner to become the Hulk?</label>
+            <select name="entry.1128541565" class="form-select">
+              <option value="" disabled selected>Select your answer</option> 
+              <option value="A">A lab accident</option>
+              <option value="B">Exposure to gamma radiation</option>
+              <option value="C">A super serum</option>
+              <option value="D">Alien technology</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label>2. Who is the Hulk’s main enemy, created by a similar gamma accident?
+            </label>
+            <br>
+            <input type="radio" name="entry.1302583068" value="b" class="form-check-input" id="q5-a">
+            <label for="q5-a">A. Loki</label>
+            <input type="radio" name="entry.1302583068" value="b" class="form-check-input" id="q5-b">
+            <label for="q5-b"> B. The Abomination</label>
+            <input type="radio" name="entry.1302583068" value="b" class="form-check-input" id="q5-c">
+            <label for="q5-c">C. Ultron</label>
+            <input type="radio" name="entry.1302583068" value="B" class="form-check-input" id="q5-d">
+            <label for="q5-d">D. Red Skull</label>
+          </div>
+          <div class="mb-3">
+            <label>3. What iconic phrase does the Hulk often say?</label>
+            <select name="entry.1631295608" class="form-select">
+              <option value="" disabled selected>Select your answer</option> 
+              <option value="A">A. Hulk smash</option>
+              <option value="B">B. Hulk fight</option>
+              <option value="C">C. Hulk win</option>
+              <option value="D">D. Hulk destroy</option>
+            </select>
+          </div>
+        </div>
+      </section>
+    </fieldset>
+  </form>
+
+  <section id="thor" class="mt-5">
+    <main class="container my-5">
+      <section class="text-center bg-dark text-white py-3" style="max-width: 100%; margin: auto;">
+        <h1>THOR</h1>
+      </section>
+      <br>
+      <section id="ironman" class="hero-section" style="display: flex; align-items: center;">
+        <img src="https://i.pinimg.com/736x/d8/8d/41/d88d4171b97b8eba2b1382a09deb7dc8.jpg" width="400" alt="Iron Man" class="img-fluid rounded mb-3">
+        <div style="margin-left: 20px;">
+          <p>Thor, the God of Thunder, is one of the central characters in the Marvel Cinematic Universe (MCU), first appearing in Thor #1 in 1962, created by writer Stan Lee, artist Jack Kirby, and editor Larry Lieber. Thor is the son of Odin, the ruler of Asgard, and is a member of the Aesir gods. His origin is rooted in Norse mythology, where he wields the enchanted hammer, Mjolnir, which grants him the power of thunder and lightning. Thor's life changes when he is initially exiled to Earth in Thor (2011) by his father for his reckless behavior and arrogance. Stripped of his powers and Mjolnir, Thor learns humility and the value of self-sacrifice, marking the beginning of his transformation from a brash god into a true hero.As Thor’s journey progresses, he becomes a key member of the Avengers. His first appearance in The Avengers (2012) sees him joining forces with Iron Man, Captain America, and the Hulk to stop Loki, his adopted brother, from conquering Earth with the help of the Chitauri. Thor’s relationship with Loki is a central theme throughout his storyline, with Loki constantly being a thorn in Thor’s side, despite their shared bloodline. In Thor: The Dark World (2013), Thor battles the Dark Elves, led by Malekith, who seeks to plunge the universe into darkness using the Aether (Reality Stone). Despite his success, Thor faces great personal losses, including the death of his mother, Frigga.In Thor: Ragnarok (2017), the god faces his greatest challenges, as Asgard is destroyed by the villain Hela, his long-lost sister, and he is forced to team up with the Hulk, Loki, and Valkyrie to save the people of Asgard. During this time, Thor loses his hammer Mjolnir but gains new strength through his connection to his lightning powers. In Avengers: Infinity War (2018), Thor plays a crucial role in the battle against Thanos, forging Stormbreaker, a new axe that can summon the Bifrost, and joins the Avengers in the fight to stop the Mad Titan from collecting the Infinity Stones. Despite his efforts, Thanos successfully obtains all the Stones and wipes out half of all life in the universe.In Avengers: Endgame (2019), Thor struggles with guilt and depression over his failure to stop Thanos and the destruction of his people. However, he eventually joins the Avengers in a time heist to retrieve the Infinity Stones and undo the snap. By the end of the film, Thor passes the mantle of Asgard’s leadership to Valkyrie and sets off on a journey of self-discovery, joining the Guardians of the Galaxy. Thor’s character arc in the MCU is one of growth, from a reckless and arrogant god to a self-aware hero who learns to embrace his flaws and responsibilities. Thor's iconic line, "I am Thor, Son of Odin," and his hammer Mjolnir, which only he can lift, symbolize his strength, nobility, and heroism.</p>
+        </div>
+      </section>
+    </main>
+  </section>
+
+  <form>
+    <fieldset>
+      <section class="text-center text-white py-3" style="background-color: black; max-width: 70%; margin: auto;">
+        <h1>THOR QUIZ</h1>
+      </section>    
+      <br>
+      <section class="hero-section" style="display: flex; align-items: center;">
+        <div style="max-width: 70%; margin: auto;">
+          <div class="mb-3">
+            <label>1. Who is Thor's adopted brother and frequent antagonist?</label>
+            <select name="entry.1020291012" class="form-select">
+              <option value="" disabled selected>Select your answer</option> 
+              <option value="A">Loki</option>
+              <option value="B">Hela</option>
+              <option value="C">Odin</option>
+              <option value="D">Fenrir</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label>2. What weapon does Thor use to control thunder and lightning?
+            </label>
+            <br>
+            <input type="radio" name="entry.335007495" value="b" class="form-check-input" id="q6-a">
+            <label for="q6-a">A. Stormbreaker</label>
+            <input type="radio" name="entry.335007495" value="b" class="form-check-input" id="q6-b">
+            <label for="q6-b"> B. Mjolnir</label>
+            <input type="radio" name="entry.335007495" value="b" class="form-check-input" id="q6-c">
+            <label for="q6-c">C. Excalibur</label>
+            <input type="radio" name="entry.335007495" value="B" class="form-check-input" id="q6-d">
+            <label for="q6-d">D. The Tesseract</label>
+          </div>
+          <div class="mb-3">
+            <label>3. What event causes Thor to lose his hammer Mjolnir?</label>
+            <select name="entry.1097739889" class="form-select">
+              <option value="" disabled selected>Select your answer</option> 
+              <option value="A">A. The destruction of Asgard</option>
+              <option value="B">B. Thor's battle with Hela</option>
+              <option value="C">C. The snap by Thanos</option>
+              <option value="D">D. His fight with the Hulk</option>
+            </select>
+          </div>
+        </div>
+      </section>
+    </fieldset>
+  </form>
+
+</section>
+<section id="none" class="mt-5">
+  <main class="container my-5">
+    <section class="text-center bg-dark text-white py-3" style="max-width: 100%; margin: auto;">
+      <h1>THANK YOU</h1>
+    </section>
+    <br>
+      <section id="none" class="hero-section" style="display: flex; align-items: center; position: relative;">
+        <img src="https://i.pinimg.com/736x/62/1b/08/621b08f270345abcde85a226393e0190.jpg" 
+             width="400" alt="Thanos" class="img-fluid rounded mb-3">
+        
+        <section class="text-center text-white py-3" 
+                 style="background-color: #2C313C; position: absolute; top: 40%; left: 70%; transform: translate(-50%, -50%); padding: 10px;">
+          <h1>Bhool Toh Nhi Gaye Humein</h1>
+        </section>
+      </section>
+    </main>
+    <section>
+      <div style="text-align: center; margin-top: 20px;">
+        <style>
+          .btn:active {
+            transform: scale(0.95); 
+            opacity: 0.8;          
+          }
+        </style>
+        <form id="quiz-form" action="1.html" method="get">
+          <button type="submit" class="btn btn-outline-primary" style="font-size: 20px; padding: 10px 50px;">SUBMIT</button>
+        </form>
+      </div>
+    </section>
+  </section>
+  </form>
+</body>
+<footer class="text-center text-white py-3">
+  <p class="text-center bg-dark text-white py-5">&copy; 2025 Aditya Bhardwaj.All Rights Reserved.</p>
+</footer>
+</body>
+</html>
+
+ <!--
+  https://docs.google.com/forms/d/e/1FAIpQLSfIephPMZ347J-ODAtFLKdP91rGH-_Y75Kr025oZ6Ps4KwmkA/formResponse?
+  usp=pp_url&
+  name="entry.1747855576"           =JARVIS&
+  name="entry.2036432018"           =Arc+Reactor&
+  name="entry.514892831"            =A+challenge+from+Captain+America&
+  name="entry.1717536528"           =Crossbones&
+  name="entry.113384464"            =Power+Serum&
+  name="entry.1472446543"           =Reality+Stone&
+  name="entry.1128541565"           =Exposure+to+gamma+radiation&
+  name="entry.1302583068"           =Ultron&
+  name="entry.1631295608"           =Hulk+smash&
+  name="entry.1020291012"           =Loki&
+  name="entry.335007495"            =Mjolnir&
+  name="entry.1097739889"           =The+destruction+of+Asgard
+  -->
